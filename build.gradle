@@ -33,7 +33,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'ifmo.pt.lab2.App'
+    mainClassName = 'ifmo.pt.lab3.App'
 }
 
 test {

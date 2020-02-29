@@ -1,4 +1,4 @@
-package ifmo.pt.lab2;
+package ifmo.pt.lab3;
 
 import java.util.LinkedList;
 
@@ -18,7 +18,7 @@ class TechnicalItem extends GenericItem {
     @Override
     protected Object clone() {
         TechnicalItem item = new TechnicalItem(this.ID, this.name, this.price, this.category, this.warrantyTime);
-        item.analogIds = (LinkedList<Integer>) this.analogIds.clone();
+        item.analogs = (LinkedList<GenericItem>) this.analogs.clone();
         return item;
     }
 
